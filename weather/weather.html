@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="weatherApp">
+        <h1>WEATHER APP</h1>
+        <div class="inputfeilds">
+            <div class="address">
+                <label for="location">Enter your location : </label>
+                <input type="text" id="location" placeholder="location" required>
+            </div>
+            
+            <div class="btn">
+                <button class="get_weather">GET WEATHER</button><br>
+            </div>
+            
+        </div>
+        
+
+        <div class="primary_weather">
+            <label for="current_weather">WEATHER : </label>
+            <input type="text" id="current_weather" readonly>
+            <label for="current_temp">TEMPERATURE : </label>
+            <input type="text" id="current_temp" readonly>
+        </div>
+
+
+        <div class="sun_details">
+            <label for="sunrise">SUN RISE : </label>
+            <input type="text" id="sunrise" readonly>
+            <label for="sunset">SUN SET : </label>
+            <input type="text" id="sunset" readonly>
+        </div>
+        
+        
+        <div class="wind_details">
+            <label for="current_windspeed">WIND SPEED : </label>
+            <input type="text" id="current_windspeed" readonly>
+            <label for="current_winddir">WIND DIRECTION : </label>
+            <input type="text" id="current_winddir" readonly>
+        </div>
+        
+
+        <div class="additional_info">
+            <label for="humidity">HUMIDITY : </label>
+            <input type="text" id="humidity" readonly>
+            <label for="visiblity">VISIBLITY : </label>
+            <input type="text" id="visiblity" readonly>
+        </div>
+        
+
+        
+    </div>
+     <script src="weather.js"></script>
+</body>
+</html>

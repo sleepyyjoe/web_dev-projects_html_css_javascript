@@ -1,0 +1,120 @@
+.weatherApp{
+    background-color: lightblue;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100%;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    padding: 30px;
+    row-gap: 60px;
+
+}
+.weatherApp h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: red;
+}
+.inputfeilds{
+    margin: 30px;
+    display: flex;
+    column-gap: 50px;
+    font-size: 30px;
+    color: brown;
+    
+}
+#location{
+    height: 40px;
+    width: 400px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.get_weather{
+    height: 40px;
+    width: 400px;
+    font-size: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: red;
+}
+.primary_weather{
+    margin: 30px;
+    display: flex;
+    column-gap: 50px;
+    font-size: 30px;
+    color: brown;            
+}
+#current_weather{
+    height: 40px;
+    width: 400px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+#current_temp{
+    height: 40px;
+    width: 400px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.sun_details{
+    margin: 30px;
+    display: flex;
+    column-gap: 50px;
+    font-size: 30px;
+    color: brown;            
+}
+#sunrise{
+    height: 40px;
+    width: 400px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+#sunset{
+    height: 40px;
+    width: 400px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.wind_details{
+    margin: 30px;
+    display: flex;
+    column-gap: 60px;
+    font-size: 30px;
+    color: brown;            
+}
+#current_windspeed{
+    height: 40px;
+    width: 400px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+#current_winddir{
+    height: 40px;
+    width: 400px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.additional_info{
+    margin: 30px;
+    display: flex;
+    column-gap: 60px;
+    font-size: 30px;
+    color: brown;            
+}
+#humidity{
+    height: 40px;
+    width: 400px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+#visiblity{
+    height: 40px;
+    width: 400px;
+    font-size: 30px;
+    border-radius: 10px;
+}
