@@ -1,0 +1,108 @@
+.calculator{
+    height: 600px;
+    width: 480px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: blue;
+    padding: 60px 60px 60px 60px;
+}
+.screen{
+    height: 60px;
+    width: 472px;
+    margin: 30px,30px;
+}
+.show{
+    height: 60px;
+    width: 472px;
+    font-size: 50px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-auto-rows: 123px;
+    max-width: 472px;
+    max-height: 492px;
+    padding: 30px 0px;
+    margin: 0px;
+}
+.num1{
+    background-color: lightgreen;
+    font-size: 50px;
+    color:blue;
+}
+.num2{
+    background-color: lightgreen;
+    font-size: 50px;
+    color:blue;
+}
+.num3{
+    background-color: lightgreen;
+    font-size: 50px;
+    color:blue;
+}
+.clr{
+    background-color: lightgreen;
+    font-size: 50px;
+    color:blue;
+}
+.num4{
+    background-color: lightgreen;
+    font-size: 50px;
+    color:blue;
+}
+.num5{
+    background-color: lightgreen;
+    font-size: 50px;
+    color:blue;
+}
+.num6{
+    background-color: lightgreen;
+    font-size: 50px;
+    color:blue;
+}
+.minus{
+    background-color: lightgreen;
+    font-size: 50px;
+    color:blue;
+}
+.num7{
+    background-color: lightgreen;
+    font-size: 50px;
+    color:blue;
+}
+.num8{
+    background-color: lightgreen;
+    font-size: 50px;
+    color:blue;
+}
+.num9{
+    background-color: lightgreen;
+    font-size: 50px;
+    color:blue;
+}
+.plus{
+    background-color: lightgreen;
+    font-size: 50px;
+    color:blue;
+}
+.num0{
+    background-color: lightgreen;
+    font-size: 50px;
+    color:blue;
+}
+.div{
+    background-color: lightgreen;
+    font-size: 50px;
+    color:blue;
+}
+.mul{
+    background-color: lightgreen;
+    font-size: 50px;
+    color:blue;
+}
+.equ{
+    background-color: lightgreen;
+    font-size: 50px;
+    color:blue;
+}
+

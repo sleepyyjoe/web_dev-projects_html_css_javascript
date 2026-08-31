@@ -1,0 +1,67 @@
+.todo{
+    width : 1500px;
+    background-color : lightskyblue;
+    border: 1px solid black;
+}
+.mainheading{
+    background-color: blue;
+    text-align:center;
+    color: red;
+    font-size: 100px;
+    width: 1495px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: 60px;
+
+}
+.functional{
+    text-align:center;
+    display: flex;
+    justify-content: center;
+}
+.task_discription{
+    padding: 6px;
+    margin: 30px;
+    width: 500px;
+    height: 100px;
+    font-size: 40px;
+    border-radius: 50px;
+    background-color: lightgreen;
+}
+.timing{
+    padding: 6px;
+    margin: 30px;
+    height: 100px;
+    font-size: 40px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: lightblue;
+}
+.Add_task{
+    padding: 6px;
+    margin: 30px;
+    width: 200px;
+    background-color: red;
+    color: blue;
+    font-size: 40px;
+    border-radius: 50px;
+}
+.todo_container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 500px 400px 200px;
+    font-size: 60px;
+    padding-left: 190px;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.butn_del{
+    width: 200px;
+    background-color: red;
+    color: blue;
+    font-size: 40px;
+    border-radius: 50px;
+}
